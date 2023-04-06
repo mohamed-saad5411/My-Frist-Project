@@ -1,0 +1,1225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+h1 {
+    font-size: 60px;
+    padding: 10px 0px;
+    
+}
+
+h1::after {
+    content: "|";
+    animation: head-moving 18s alternate infinite;
+}
+
+/* 1 START HEAD */
+.main-nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.main-head,
+.subject,
+.main-nav-bar,
+.main-nav-bar ul {
+    display: flex;
+}
+
+.main-head {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.main-head {
+    height: 100vh;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subject {
+    align-items: center;
+    text-align: center;
+}
+
+.subject p {
+    font-size: 22px;
+    padding: 10px 0 50px;
+}
+
+.subject h2 {
+    margin-top: 50px;
+}
+
+.subject button {
+    background-color: transparent;
+    color: #20c997;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 3px solid #20c997;
+    font-size: 18px;
+    transition: 0.5s color, 0.5s background-color;
+}
+
+.subject button:hover {
+    background-color: #20c997;
+    color: white;
+}
+
+.main-nav-bar .right {
+    visibility: hidden;
+}
+
+.main-nav-bar {
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: 25px 5px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fa-gear {
+    position: fixed;
+    top: 40vh;
+    right: 0px;
+    color: #fff;
+    padding: 8px;
+    padding-top: 18px;
+    background-color: #555;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+}
+
+.main-nav-bar a {
+    transition: 0.3s color;
+}
+
+.main-nav-bar .home {
+    color: #20c997;
+}
+
+.main-nav-bar a:hover {
+    color: #20c997;
+}
+
+@keyframes head-moving {
+    0% {
+        content: " |";
+    }
+
+    1% {
+        content: "I|";
+    }
+
+    2% {
+        content: "I|'";
+    }
+
+    3% {
+        content: "I'm|";
+    }
+
+    4% {
+        content: "I'm |";
+    }
+
+    5% {
+        content: "I'm S|";
+    }
+
+    6% {
+        content: "I'm Si|";
+    }
+
+    7% {
+        content: "I'm Sim|";
+    }
+
+    8% {
+        content: "I'm Simo|";
+    }
+
+    9% {
+        content: "I'm Simon|";
+    }
+
+    10% {
+        content: "I'm Simone|";
+    }
+
+    11% {
+        content: "I'm Simone |";
+    }
+
+    12% {
+        content: "I'm Simone O|";
+    }
+
+    13% {
+        content: "I'm Simone Ol|";
+    }
+
+    14% {
+        content: "I'm Simone Oli|";
+    }
+
+    15% {
+        content: "I'm Simone Oliv|";
+    }
+
+    16% {
+        content: "I'm Simone Olivia|";
+    }
+
+    17% {
+        content: "I'm Simone Olivia |";
+    }
+
+    18% {
+        content: "I'm Simone Olivia|";
+    }
+
+    19% {
+        content: "I'm Simone Olivi|";
+    }
+
+    20% {
+        content: "I'm Simone Oliv|";
+    }
+
+    21% {
+        content: "I'm Simone Oli|";
+    }
+
+    22% {
+        content: "I'm Simone Ol|";
+    }
+
+    23% {
+        content: "I'm Simone O|";
+    }
+
+    24% {
+        content: "I'm Simone |";
+    }
+
+    25% {
+        content: "I'm Simone|";
+    }
+
+    26% {
+        content: "I'm Simon|";
+    }
+
+    27% {
+        content: "I'm Simo|";
+    }
+
+    28% {
+        content: "I'm Sim|";
+    }
+
+    29% {
+        content: "I'm Si|";
+    }
+
+    30% {
+        content: "I'm S|";
+    }
+
+    31% {
+        content: "I'm |";
+    }
+
+    32% {
+        content: "I'm|";
+    }
+
+    33% {
+        content: "I'm F|";
+    }
+
+    34% {
+        content: "I'm Fr|";
+    }
+
+    35% {
+        content: "I'm Fre|";
+    }
+
+    36% {
+        content: "I'm Free|";
+    }
+
+    37% {
+        content: "I'm Freel|";
+    }
+
+    38% {
+        content: "I'm Freela|";
+    }
+
+    39% {
+        content: "I'm Freelan|";
+    }
+
+    40% {
+        content: "I'm Freelanc|";
+    }
+
+    41% {
+        content: "I'm Freelance|";
+    }
+
+    42% {
+        content: "I'm Freelancer|";
+    }
+
+    43% {
+        content: "I'm Freelance |";
+    }
+
+    44% {
+        content: "I'm Freelancer|";
+    }
+
+    45% {
+        content: "I'm Freelance|";
+    }
+
+    46% {
+        content: "I'm Freelanc|";
+    }
+
+    47% {
+        content: "I'm Freelan|";
+    }
+
+    48% {
+        content: "I'm Freela|";
+    }
+
+    49% {
+        content: "I'm Freel|";
+    }
+
+    50% {
+        content: "I'm Freel|";
+    }
+
+    51% {
+        content: "I'm Free|";
+    }
+
+    52% {
+        content: "I'm Fre|";
+    }
+
+    53% {
+        content: "I'm Fr|";
+    }
+
+    54% {
+        content: "I'm F|";
+    }
+
+    55% {
+        content: "I'm |";
+    }
+
+    56% {
+        content: "I'm P|";
+    }
+
+    57% {
+        content: "I'm Ph|";
+    }
+
+    58% {
+        content: "I'm Pho|";
+    }
+
+    59% {
+        content: "I'm Phot|";
+    }
+
+    60% {
+        content: "I'm Photo|";
+    }
+
+    61% {
+        content: "I'm Photog|";
+    }
+
+    62% {
+        content: "I'm Photogr|";
+    }
+
+    63% {
+        content: "I'm Photogra|";
+    }
+
+    64% {
+        content: "I'm Photogragh|";
+    }
+
+    65% {
+        content: "I'm Photografe|";
+    }
+
+    66% {
+        content: "I'm Photografer|";
+    }
+
+    67% {
+        content: "I'm Photografer |";
+    }
+
+    68% {
+        content: "I'm Photografer|";
+    }
+
+    69% {
+        content: "I'm Photografe|";
+    }
+
+    70% {
+        content: "I'm Photograf|";
+    }
+
+    71% {
+        content: "I'm Photogra|";
+    }
+
+    72% {
+        content: "I'm Photogr|";
+    }
+
+    73% {
+        content: "I'm Photog|";
+    }
+
+    74% {
+        content: "I'm Photo|";
+    }
+
+    75% {
+        content: "I'm Phot|";
+    }
+
+    76% {
+        content: "I'm Pho|";
+    }
+
+    77% {
+        content: "I'm Ph|";
+    }
+
+    78% {
+        content: "I'm P|";
+    }
+
+    79% {
+        content: "I'm |";
+    }
+
+    80% {
+        content: "I'm D|";
+    }
+
+    81% {
+        content: "I'm De|";
+    }
+
+    82% {
+        content: "I'm Des|";
+    }
+
+    83% {
+        content: "I'm Desi|";
+    }
+
+    84% {
+        content: "I'm Desig|";
+    }
+
+    85% {
+        content: "I'm Design|";
+    }
+
+    86% {
+        content: "I'm Designe|";
+    }
+
+    87% {
+        content: "I'm Designer|";
+    }
+
+    88% {
+        content: "I'm Designer |";
+    }
+
+    89% {
+        content: "I'm Designer|";
+    }
+
+    90% {
+        content: "I'm Designe|";
+    }
+
+    91% {
+        content: "I'm Design|";
+    }
+
+    92% {
+        content: "I'm Desig|";
+    }
+
+    93% {
+        content: "I'm Desi|";
+    }
+
+    94% {
+        content: "I'm Des|";
+    }
+
+    95% {
+        content: "I'm De|";
+    }
+
+    96% {
+        content: "I'm D|";
+    }
+
+    97% {
+        content: "I'm |";
+    }
+
+    98% {
+        content: "I'm|";
+    }
+
+    99% {
+        content: "I'|";
+    }
+
+    100% {
+        content: "I|";
+    }
+
+}
+
+
+
+
+/* 1 END HEAD */
+/* 2 START ABOUT */
+.trans {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #f0f0f0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.about-head {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    color: #000;
+    /* border-bottom: #20c997 solid 3px; */
+
+}
+
+.about-head h2::after {
+    content: "";
+    border-bottom: #20c997 solid 3px;
+}
+
+/* ---- */
+.my-info {
+    width: 60%;
+}
+
+.data-contain {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.my-data {
+    width: 25%;
+}
+
+.my-info p,
+.my-data p {
+    color: #4c4d4d;
+    padding-bottom: 18px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+
+.my-data p {
+    border-bottom: solid 1px #eaeaea;
+    padding: 10px;
+}
+
+.my-data .from {
+    border-bottom: none;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.my-info span {
+    color: #20c997;
+}
+
+.my-data button,
+.contact-contain button {
+    background-color: #20c997;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    transition: 0.5s background-color, 0.5s box-shadow;
+    margin-top: 10px;
+    box-shadow: 2px 4px 7px rgb(207, 207, 207);
+}
+
+.my-data button:hover,
+.contact-contain button:hover {
+    background-color: #59a891;
+    box-shadow: 2px 4px 7px rgb(158, 158, 158);
+}
+
+.my-data span {
+    font-weight: 600;
+}
+
+.my-data a {
+    color: #20c997;
+    text-decoration: none;
+    transition: 0.3s color;
+}
+
+.my-data a:hover {
+    color: #59a891;
+}
+
+/* ---------- */
+.my-number {
+    width: 90%;
+    margin: 50px auto;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: #6d6d6d;
+}
+
+.my-number .num {
+    text-align: center;
+    width: 25%;
+    border-right: #e0e0e0 solid 1px;
+    /* background-color: aqua; */
+}
+
+.my-number h2 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+.my-number .num-4 {
+    border-right: none;
+}
+
+/* 2 END ABOUT */
+/* 3 START service */
+.service-contain {
+    background-color: #f8f8f8;
+    margin: 50px 0;
+}
+
+.trans {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #e9e9e9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.service-head {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    color: #000;
+}
+
+.service-contain-1 {
+    font-family: "Poppins", sans-serif;
+    color: #4c4d4d;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.service-contain-1 h3 {
+    margin-bottom: 10px;
+}
+
+.service-contain-1 i {
+    color: #20c997;
+}
+
+.service-contain-1-a {
+    width: 40%;
+    margin: 30px 0;
+    display: flex;
+}
+
+.service-contain-1-a .icon {
+    width: 150px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3 END service */
+/* 4 START resume */
+.trans {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #f0f0f0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.summery-head {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    color: #000;
+}
+
+.education,
+.experience {
+    width: 45%;
+    font-family: "Poppins", sans-serif;
+}
+
+.edu,
+.exp {
+    margin-bottom: 30px;
+}
+
+.edu h2,
+.edu h3,
+.exp h2,
+.exp h3 {
+    margin: 15px 0;
+}
+
+.my-resume {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exp-1 {
+    border: #e0e0e0 solid 1px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.my-resume .p-1 {
+    width: fit-content;
+    margin-top: 5px;
+    padding: 3px 7px;
+    background-color: #20c997;
+    border-radius: 5px;
+    color: white;
+}
+
+.my-resume .p-2 {
+    margin-bottom: 20px;
+    color: #dc3545;
+}
+
+/* 4 END resume */
+/* 5 START skill */
+.skill-contain {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.skill-contain .skill-head {
+    width: 93.33333333%;
+    margin: 10px auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.my-skill {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+}
+
+.skill {
+    width: 45%;
+}
+
+.skill div {
+    margin: 10px 0;
+}
+
+.my-skill p {
+    width: fit-content;
+}
+
+.skill-p {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.line {
+    border-bottom: rgb(230, 230, 230) solid 6px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.line div {
+    border-bottom: #20c997 solid 6px;
+    border-radius: 15px;
+    position: absolute;
+    top: -10;
+    left: 0;
+}
+
+.line .web {
+    width: 65%;
+}
+
+.line .html {
+    width: 95%;
+}
+
+.line .JS {
+    width: 80%;
+}
+
+.line .react {
+    width: 70%;
+}
+
+.line .angular {
+    width: 60%;
+}
+
+.line .bootstrap {
+    width: 99%;
+}
+
+.skill-contain button {
+    background-color: #fff;
+    color: gray;
+    padding: 15px 50px;
+    border: gray 2px solid;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.5s background-color, 0.5s color;
+    margin-top: 50px;
+}
+
+.skill-contain button:hover {
+    background-color: gray;
+    color: #fff;
+}
+
+.skill-contain .btn-skill {
+    text-align: center;
+}
+
+/* 5 END skill */
+/* 6 START PORTFOLIO */
+.trans {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #ececec;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.portfolio-head {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    color: #000;
+    /* border-bottom: #20c997 solid 3px; */
+}
+
+.portfolio-contain {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.navbar-portfolio {
+    width: 25%;
+    margin: auto;
+}
+
+.navbar-portfolio ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-portfolio li {
+    padding: 10px 0px;
+    list-style-type: none;
+}
+
+.navbar-portfolio a {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s color;
+    color: #4c4d4d;
+}
+
+.navbar-portfolio a:hover {
+    color: #20c997;
+}
+
+.navbar-portfolio .all {
+    color: #20c997;
+    border-bottom: #20c997 2px solid;
+}
+
+.my-work-all {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 30px auto;
+
+}
+
+.my-work-all figure {
+    width: 100%;
+    padding: 15px;
+}
+
+.my-work-all img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fig {
+    position: relative;
+}
+
+.caption {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    color: white;
+    top: 15px;
+    width: 92.5%;
+    height: 89%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.7s opacity;
+}
+
+.caption4 {
+    height: 94.7%;
+}
+
+.caption2 {
+    height: 95%;
+}
+
+.caption6 {
+    height: 92%;
+}
+
+.caption7 {
+    height: 92%;
+}
+
+.caption p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.caption:hover {
+    opacity: 1;
+}
+
+/* 6 END PORTFOLIO */
+/* 7 START CLIENT */
+.clients {
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.client {
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #f5f5f5;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.client p {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dennis {
+    display: flex;
+    align-items: center;
+}
+
+.dennis img {
+    border-radius: 50%;
+}
+
+.dennis-sec {
+    margin: 10px;
+}
+
+.dennis-sec p {
+    color: #686868;
+    font-weight: 600;
+}
+
+.dennis h3 {
+    margin-bottom: 10px;
+}
+
+.fa-star {
+    margin-top: 10px;
+    color: #ffc107;
+}
+
+
+/* 7 END PORTFOLIO */
+
+/* 8 START CONTACT */
+.contact-head {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    color: #000;
+}
+
+.contact-contain-all {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.contact-contain {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-contain h4 {
+    margin: 10px 0 20px;
+    font-size: 18px;
+}
+
+.address {
+    margin-bottom: 20px;
+}
+
+.inputs1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputs1 input {
+    width: 49%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: solid #d8d8d8 1px;
+}
+
+.inputs1 label {
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid #d8d8d8 1px;
+    margin-top: 10px;
+
+}
+
+.address p,
+.contact-contain li {
+    margin-bottom: 5px;
+    color: #4c4d4d;
+}
+
+.follow {
+    margin-top: 10px;
+}
+
+.my-contact {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.data-input {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-contain button {
+    margin: 30px auto;
+}
+
+.fa-phone-flip,
+.fa-fax,
+.fa-envelope {
+    color: #20c997;
+}
+
+.contact-contain li {
+    display: flex;
+    padding: 10px 0;
+}
+
+.contact-contain i {
+    margin-right: 8px;
+    padding-top: 7px;
+}
+
+/* 8 END CONTACT */
+/* 9 START footer */
+.footer {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .anch1::after {
+    content: "";
+    border-right: #e0e0e0 solid 1px;
+
+}
+
+.footer a {
+    color: #000;
+    font-size: 16px;
+    transition: 0.3s color;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer p {
+    font-family: "Poppins", sans-serif;
+}
+
+.footer .clr {
+    color: #20c997;
+    padding: 0 0;
+}
+
+.footer a:hover {
+    color: #20c997;
+}
+
+.footer .clr {
+    transition: 0.3s color;
+}
+
+.footer span a:hover {
+    color: #0e8f68;
+}
+
+/* 9 END footer */

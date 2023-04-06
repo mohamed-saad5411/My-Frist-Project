@@ -1,0 +1,238 @@
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .main-nav-bar {
+        width: 100%;
+    }
+
+    .main-nav-bar h2 {
+        width: 13%;
+        margin-left: 5px;
+    }
+
+    .main-nav-bar img {
+        width: 100%;
+    }
+
+    .contact-contain {
+        width: 80%;
+    }
+
+    .data-input .user-name,
+    .data-input .user-email {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .my-work-all div{
+        width: 50%;
+    }
+    .my-work-all{
+        width: 80%;
+    }
+    .trans {
+        font-size: 60px;
+    }
+
+    .my-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .my-data {
+        width: 100%;
+    }
+
+    .service-contain-1-a .icon {
+        width: 80%;
+    }
+
+    .client {
+        width: 90%;
+    }
+
+    .main-nav-bar {
+        width: 100%;
+    }
+
+    .main-nav-bar h2 {
+        width: 12%;
+        margin-left: 5px;
+    }
+
+    .main-nav-bar img {
+        width: 100%;
+    }
+
+    .main-nav-bar a {
+        font-size: 14px;
+    }
+
+    .data-input .user-name,
+    .data-input .user-email {
+        width: 100%;
+    }
+    .my-contact {
+        width: 30%;
+    }
+    .data-input {
+        width: 65%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .main-nav-bar {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+    }
+
+    .main-nav-bar h2 {
+        width: 100%;
+    }
+
+    .main-nav-bar ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-nav-bar ul li {
+        padding: 10px;
+        background-color: rgb(185, 185, 185);
+    }
+
+    .subject button {
+        padding: 10px 30px;
+        border-radius: 30px;
+    }
+
+    .trans {
+        font-size: 42px;
+    }
+
+    .about-head {
+        font-size: 23px;
+    }
+
+    .my-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .my-data,
+    .service-contain-1-a,
+    .education,
+    .experience,
+    .skill,
+    .client {
+        width: 100%;
+    }
+
+    .education,
+    .experience {
+        width: 90%;
+    }
+
+    .data-contain,
+    .my-number,
+    .service-contain-1,
+    .my-resume,
+    .my-skill,
+    .clients,
+    .my-work-all,
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .my-number .num {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    .service-contain-1-a .icon {
+        width: 150px;
+    }
+
+    .skill-contain .skill-head {
+        width: 100%;
+    }
+
+    .footer {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-left {
+        padding-bottom: 15px;
+    }
+
+    .foot-right {
+        margin: auto;
+    }
+
+    .my-contact {
+        width: 100%;
+        text-align: center;
+        order: 3;
+        margin: auto;
+
+    }
+
+    .data-input {
+        width: 100%;
+    }
+
+    .data-input .user-name,
+    .data-input .user-email {
+        width: 100%;
+    }
+
+    .my-work-all div{
+        width: 50%;
+    }
+    .my-work-all{
+        width: 70%;
+        flex-direction: row;
+    }
+    .caption{
+        width: 100%;
+        height: 90%;
+        opacity: 0;
+    }
+    .caption4{
+        height: 95%;
+    }
+    .caption2{
+        height: 95%;
+    }
+    .caption6{
+        height: 93%;
+    }
+    .caption7{
+        height: 93%;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .education,
+    .experience {
+        width: 100%;
+    }
+    .my-work-all{
+        width: 95%;
+    }
+    .my-work-all div{
+        width: 100%;
+    }
+
+}
